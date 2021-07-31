@@ -11,6 +11,8 @@
 		CF4E126826B5403100193FA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E126726B5403100193FA6 /* ContentView.swift */; };
 		CF4E126A26B5403800193FA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4E126926B5403800193FA6 /* Assets.xcassets */; };
 		CF4E126D26B5403800193FA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4E126C26B5403800193FA6 /* Preview Assets.xcassets */; };
+		CF4E127626B5406F00193FA6 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E127526B5406F00193FA6 /* ColorView.swift */; };
+		CF4E127926B543FB00193FA6 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E127826B543FB00193FA6 /* SliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		CF4E126926B5403800193FA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF4E126C26B5403800193FA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CF4E126E26B5403800193FA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF4E127526B5406F00193FA6 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		CF4E127826B543FB00193FA6 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				CF4E126926B5403800193FA6 /* Assets.xcassets */,
 				CF4E126E26B5403800193FA6 /* Info.plist */,
 				CF4E126B26B5403800193FA6 /* Preview Content */,
+				CF4E127526B5406F00193FA6 /* ColorView.swift */,
+				CF4E127826B543FB00193FA6 /* SliderView.swift */,
 			);
 			path = SwiftUIColorizedApp;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF4E127626B5406F00193FA6 /* ColorView.swift in Sources */,
+				CF4E127926B543FB00193FA6 /* SliderView.swift in Sources */,
 				CF4E126826B5403100193FA6 /* ContentView.swift in Sources */,
 				CF4E126626B5403100193FA6 /* SwiftUIColorizedAppApp.swift in Sources */,
 			);
